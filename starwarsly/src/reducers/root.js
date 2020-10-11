@@ -1,3 +1,5 @@
+// Root reducer for redux
+
 import { combineReducers } from "redux";
 import films from "./films";
 import planets from "./planets";

@@ -1,7 +1,9 @@
+// Planet actions for redux
+
 import axios from "axios";
 import { LOAD_PLANET } from "./types";
 
-
+// Gets planet data from API and creates arrays of residents and films IDs
 function getPlanetFromAPI(id) {
   return async function (dispatch) {
     const res = await axios.get(`https://swapi.dev/api/planets/${id}/`);

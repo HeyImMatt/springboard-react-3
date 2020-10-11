@@ -1,7 +1,9 @@
+// People actions for redux
+
 import axios from "axios";
 import { LOAD_PERSON } from "./types";
 
-
+// Gets Person data from API and creates array of films
 function getPersonFromAPI(id) {
   return async function (dispatch) {
     const res = await axios.get(`https://swapi.dev/api/people/${id}/`);
