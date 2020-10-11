@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux';
 
 import ItemList from './ItemList'
 
+// Film list component for film page renders list of explored films
 function FilmList() {
   const items = useSelector(st => Object.values(st.films).map(
     f => ({...f, url: `/films/${f.id}`})

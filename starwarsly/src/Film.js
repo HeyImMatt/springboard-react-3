@@ -4,7 +4,7 @@ import {useParams} from "react-router-dom";
 import { getFilmFromAPI } from "./actions/films";
 import Sublist from "./Sublist";
 
-
+// Film component to show film page and renders sublists of planets and people
 function Film() {
 
   const {id} = useParams();

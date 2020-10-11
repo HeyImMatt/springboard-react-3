@@ -8,7 +8,7 @@ import { PersistGate } from "redux-persist/integration/react";
 import { Provider } from "react-redux";
 import { store, persistedStore} from "./store"
 
-
+// Entry point to react app, and provides store and store persistance wrappers to the app
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistedStore}>

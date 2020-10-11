@@ -5,7 +5,7 @@ import { Link, useParams } from "react-router-dom";
 import { getPersonFromAPI } from "./actions/people";
 import Sublist from "./Sublist";
 
-
+// Person component for person detail page renders sublist of films person has been in
 function Person() {
   
   const dispatch = useDispatch();

@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { getPlanetFromAPI } from "./actions/planets";
 import Sublist from "./Sublist";
 
-
+// Planet component for planet detail page renders sublist of residents and films planet has been in
 function Planet() {
   const {id} = useParams();
   const planet = useSelector(st => st.planets[id]);

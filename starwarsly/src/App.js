@@ -6,7 +6,7 @@ import './App.css';
 import NavBar from "./NavBar";
 import Routes from "./Routes";
 
-
+// Main app container renders NavBar and Routes comonents
 function App() {
   return (
     <div className="App container">
