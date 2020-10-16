@@ -1,3 +1,5 @@
+// People reducer for redux
+
 import { LOAD_PERSON, RESET_ALL } from "../actions/types";
 
 const INITIAL_STATE = {};

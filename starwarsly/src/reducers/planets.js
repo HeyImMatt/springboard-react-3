@@ -1,3 +1,5 @@
+// Planets reducer for redux
+
 import { LOAD_PLANET, RESET_ALL } from "../actions/types";
 
 const INITIAL_STATE = {};

@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import { resetAll } from "./actions/reset";
 
-
+// Homepage component renders start button if first film not in state or reset button if it is
 function HomePage() {
   const loaded = useSelector(st => st.films[1] !== undefined);
   const dispatch = useDispatch();

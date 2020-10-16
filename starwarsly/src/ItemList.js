@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+// Item list component can be reused to render films, planets, and people
 function ItemList({items, title}) {
   return (
     <>

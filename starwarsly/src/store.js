@@ -15,7 +15,7 @@ const persistConfig = {
 
 const persistedReducer = persistReducer(persistConfig, root);
 
-
+// Creates the redux store with persistance and thunk middleware
 export const store = createStore(
   persistedReducer,
   composeWithDevTools(

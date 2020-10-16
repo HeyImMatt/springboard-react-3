@@ -1,3 +1,5 @@
+// Reset action for redux
+
 import { RESET_ALL } from "./types";
 
 

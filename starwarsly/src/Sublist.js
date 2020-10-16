@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-
+// Simple sublist component that can be reused for rendering sublists where needed
 function Sublist({title, items}) {
   return (
     <>
